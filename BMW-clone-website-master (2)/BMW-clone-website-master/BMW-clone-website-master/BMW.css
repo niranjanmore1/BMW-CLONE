@@ -1,0 +1,639 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0;
+  font-family: "BMWTypeNext Pro Regular";
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 700px;
+  
+}
+nav{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  list-style: none;
+  width:100%;
+  padding-left: 25px;
+  padding-top: 13px;
+  font-size: 106%;
+  font-weight: 600;
+}
+nav ul li{
+  display: inline-block;
+ margin: 10px;
+ cursor: pointer;
+}
+nav ul li a{
+  color: #f5f0f0;
+  text-decoration: none;
+  padding: 30.8px 0;
+  position: relative;
+}
+nav ul li a::after{
+  content: '';
+  background: #1c69d4;
+  width: 0;
+  height: 3.5px;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  
+  /* transition: width 0.5s; */
+}
+nav ul li a:hover::after{
+width: 100%;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.btn img{
+  width: 40px;
+  margin-right: 10px;
+  
+}
+
+.first-video{
+ position: absolute;
+ right:0;
+ bottom: -86px;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -100;
+}
+@media(min-aspect-ratio:16/9){
+  .first-video{
+    width:100%;
+    height: auto;
+  }
+}
+@media(max-aspect-ratio:16/9){
+  .first-video{
+    width:auto;
+    height: 100%;
+  }
+}
+.line{
+  margin-top: 15px;
+  width: 87%;
+  margin-left: 95px;
+}
+.logo{
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.sub-font{
+  position: absolute;
+ color: white;
+ margin-left: 96px;
+ margin-top: 16px;
+}
+.ix1-div{
+  position: absolute;
+  margin-top: 268px;
+  margin-left: 96px;
+  width: 300px;
+  height: 205px;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
+.ix1-font1{
+ font-size: 110%;
+ font-weight: 100;
+ height: 25px;
+
+}
+.ix1-font2{
+  font-size: 385%;
+  font-weight:100
+}
+.ix1-font3{
+  font-weight: 100;
+  height: 20p;
+}
+.ix1-btn{
+  margin-top: 11px;
+  width:190px;
+  height: 51px;
+  align-items: center;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;   
+  text-align: center;
+  text-decoration: none;
+  background-color: #1c69d4;
+  color: #fff;
+  font-size: 100%;
+  font-weight: 600;
+}
+.ix1-btn:hover{
+  background-color: #1459b9;
+}
+.second-vid-div{
+  width: 100%;
+  height: 700px;
+  margin-top: 169px;
+}
+.second-video{
+ 
+ right:0;
+ bottom: -86px;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -100;
+}
+@media(min-aspect-ratio:16/9){
+  .second-video{
+    width:100%;
+    height: auto;
+  }
+}
+@media(max-aspect-ratio:16/9){
+  .second-video{
+    width:auto;
+    height: 100%;
+  }
+}
+
+.x5-div{
+  font-family: "BMWTypeNext Pro Regular";
+  position: absolute;
+  margin-top:-240px;
+  margin-left: 107px;
+  width: 416px;
+  height: 230px;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+  
+}
+.x5-font1{
+ font-size: 110%;
+ font-weight: 100;
+ height: 20px;
+
+}
+.x5-font2{
+  font-size: 385%;
+  font-weight:100
+}
+.x5-font3{
+  font-weight: 100;
+  height: 20p;
+}
+.x5-btn{
+  margin-top: 11px;
+  width:190px;
+  height: 53px;
+  align-items: center;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;   
+  text-align: center;
+  text-decoration: none;
+  background-color: #1c69d4;
+  color: #fff;
+  font-size: 100%;
+  font-weight: 600;
+}
+.x5-btn:hover{
+  background-color: #1459b9;
+}
+.x5-btn-2{
+  margin-top: 11px;
+  margin-left: 20px;
+  width:190px;
+  height: 53px;
+  align-items: center;
+  border-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;   
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  color: #fff;
+  font-size: 100%;
+  font-weight: 600; 
+}
+.x5-btn-2:hover{
+  border:3px solid #FFF;
+}
+.layer-div{
+  font-family: "BMWTypeNext Pro Regular";
+  width:100%;
+  height: 280px;
+}
+.layer-title{
+  
+  width:10%;
+  margin-left: 653px;
+  font-size: small;
+  margin-top: 20px;
+  color: #666;
+  font-weight: 700;
+  letter-spacing: 2.0px;
+  line-height: 0.9;
+}
+.layer-font-1{
+ margin-top: 20px;
+  width: fit-content;
+  margin-left: 525px;
+  font-size: 23px;
+  font-weight: 100;
+  color: #262626;
+}
+
+
+.layer-logo-div{
+  width: 245px;
+  height: 250px;
+  margin-left: 190px;
+}
+.car-div1{
+margin-left: 84px;
+padding-top: 60px;
+}
+.car-logo1{
+  height: 60px;
+}
+.logo-font-div1{
+margin-left: 48px;
+margin-top: 10px;
+}
+.logo-font1{
+font-size: 130%;
+font-weight: 100;
+}
+.logo-btn-div1{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.logo-btn1{
+  width:140px;
+  height: 50px;
+  font-size: larger;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+}
+.logo-btn1:hover{
+  border:3px solid black;
+}
+.layer-logo-div2{
+  float: left;
+  margin-left: 612px;
+  margin-top: -249px;
+}
+.layer-logo-div3{
+  float: left;
+  margin-left: 1041px;
+  margin-top: -249px;
+}
+
+.car-logo2{
+  height: 60px;
+  width: fit-content;
+}
+.logo-btn-div2{
+  margin-top: 30px;
+  margin-left: 18px;
+}
+.logo-btn2{
+  width:220px;
+  height: 50px;
+  font-size: larger;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+}
+.logo-btn2:hover{
+  border:3px solid black;
+}
+.logo-btn-div3{
+  margin-top: 30px;
+  margin-left: 24px;
+}
+.logo-btn3{
+  width:200px;
+  height: 50px;
+  font-size: larger;
+  font-weight: 600;
+  background-color: #fff;
+  cursor: pointer;
+}
+.logo-btn3:hover{
+  border:3px solid black;
+}
+
+.fourth-div{
+  font-family: "BMWTypeNext Pro Regular";
+  width:100%;
+  height: 530px;
+  overflow: hidden;
+}
+.fourth-div-img{
+  margin-top: 29px;
+}
+.fourth-div-font{
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 100px;
+  color: #fff;
+  font-size: 330%;
+  font-weight: lighter;
+}
+.fourth-div-btn{
+  position: absolute;
+  margin-top:-200;
+  width:300px;
+  height: 51px;
+  top:323%;
+  margin-left: 110px;
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 3px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.fourth-div-btn:hover{
+ border:3px solid #fff;
+  
+}
+.fifth-div-1{
+  font-family: "BMWTypeNext Pro Regular";
+  width: 100%;
+  height: 900px;
+ float: left;
+}
+.fifth-img1{
+  margin-top: 40px;
+  margin-left: 96px;
+  width: 43%;
+  height: 360px; 
+  float: left;
+}
+.fifth-text1{
+  font-family: "BMWTypeNext Pro Regular";
+  width: fit-content;
+  float: left;
+  margin-top: 108px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  font-size: medium;
+  color: #666;;
+}
+.fifth-text2{
+  font-family: "BMWTypeNext Pro Regular";
+  width: fit-content;
+  float: left;
+  margin-top: 138px;
+  margin-left: -174px;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight:lighter;
+  color: #262626;
+}
+.fifth-text3{
+  font-family: "BMWTypeNext Pro Regular";
+  width: fit-content;
+  float: left;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left ;
+  color: #262626; 
+}
+.fifth-btn1{
+  font-family: "BMWTypeNext Pro Regular";
+  color: #262626; 
+  margin-top:20px;;
+  width:193px;
+  height: 51px;
+  margin-top: 38px;
+  margin-left: 20px;
+  background-color: transparent;
+  border-radius: 3px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.fifth-btn1:hover{
+  border:3px solid black;
+}
+.fifth-text4{
+  font-family: "BMWTypeNext Pro Regular";
+  float: left;
+  margin-top: 138px;
+  margin-left: -257px;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight:lighter;
+  color: #262626;
+}
+.fifth-btn2{
+  float: left;
+  font-family: "BMWTypeNext Pro Regular";
+  color: #262626; 
+  margin-top:20px;;
+  width:193px;
+  height: 51px;
+  margin-top: 38px;
+  margin-left: 20px;
+  background-color: transparent;
+  border-radius: 3px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.fifth-btn2:hover{
+  border:3px solid black;
+}
+
+.bottom-div{
+  font-family: "BMWTypeNext Pro Regular";
+  width: 100%;
+  height: 80px;
+  margin-top: 420px;
+}
+.bottom-line{
+  color: #262626; 
+}
+.bottom-div-text1{
+  font-family: "BMWTypeNext Pro Regular";
+  height: fit-content;
+  width: fit-content;
+  font-size: 60%;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  margin-left: 95px;
+  margin-top:30px ;
+  float: left;
+}
+.bottom-div-text2{
+  font-family: "BMWTypeNext Pro Regular";
+  width: 100px;
+  margin-left: 240px;
+  margin-top: 26px;
+  font-size: 90%;
+  font-weight: 900;
+  cursor: pointer;
+}
+.bottom-div-text2:hover{
+  color: #1459b9;
+}
+
+.footer1{
+  width: 100%;
+  height: 482px;
+  margin-top: 1940px;
+}
+
+.links-div{
+  width: 100%;
+  height: 405px;
+  background-color:#f4f4f5;
+  display: flex;
+  justify-content: space-evenly;
+    gap: 78px;
+}
+.table-div{
+  font-family: "BMWTypeNext Pro Regular";
+margin-left: 100px;
+width:fit-content;
+margin-top: 50px;
+}
+ul {
+  list-style-type: none;
+}
+.table-div1{
+  font-family: "BMWTypeNext Pro Regular";
+  display: flex;
+  line-height: 2;
+  margin-top: 100px;
+  color: #4D4d4d;
+  font-weight: bold;
+  cursor: pointer;
+}
+.table-div2{
+  font-family: "BMWTypeNext Pro Regular";
+  display: flex;
+  line-height: 2;
+  margin-top: 100px;
+  color: #4D4d4d;
+  font-weight: bold;
+  cursor: pointer;
+}
+.table-div3{
+  font-family: "BMWTypeNext Pro Regular";
+  display: flex;
+  line-height: 2;
+  margin-top: 100px;
+  color: #4D4d4d;
+  font-weight: bold;
+  cursor: pointer;
+}
+.table-div4{
+  font-family: "BMWTypeNext Pro Regular";
+  display: flex;
+  line-height: 2;
+  margin-top: 100px;
+  color: #4D4d4d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#first-line{
+  font-size: 65%;
+  color: #666;
+  letter-spacing: .5px;
+}
+
+.ab:hover{
+ color: #262626;
+}
+
+.footer-logo{
+  position: absolute;
+  height: 50px;
+  width: fit-content;
+  margin-top: 310px;
+  left: 1px;
+  margin-left: 100px;
+  
+}
+.ftlogo{
+  width:30px;
+  height: 30px;
+  cursor: pointer;
+}
+.table{
+  font-family: "BMWTypeNext Pro Regular";
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 75%;
+  font-weight: lighter;
+
+}
+.a1{
+  font-family: "BMWTypeNext Pro Regular";
+  margin-top: -20px;
+  margin-left: 1020px;
+  width: fit-content;
+  font-size: smaller;
+  cursor: pointer;
+}
+.a1:hover{
+  color: #1459b9;
+}
+.a2{
+  font-family: "BMWTypeNext Pro Regular";
+  margin-top: -20px;
+  margin-left: 1200px;
+  width: fit-content;
+  font-size: smaller;
+  cursor: pointer;
+}
+.a2:hover{
+  color: #1459b9;
+}
+.a3{
+  font-family: "BMWTypeNext Pro Regular";
+  margin-top: -20px;
+  margin-left: 1310px;
+  width: fit-content;
+  font-size: smaller;
+  cursor: pointer;
+}
+.a3:hover{
+  color: #1459b9;
+}
